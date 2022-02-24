@@ -1,5 +1,19 @@
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import "./App.scss";
+import { Navbar } from "./components/Navbar";
+
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
