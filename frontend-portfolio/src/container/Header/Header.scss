@@ -58,7 +58,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-
+  margin-top: 40px;
   .badge-cmp,
   .tag-cmp {
     padding: 1rem 2rem;
@@ -168,7 +168,7 @@
 .app__header-img {
   flex: 1;
   height: 100%;
-
+  margin-top: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
