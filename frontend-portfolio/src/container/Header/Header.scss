@@ -168,14 +168,15 @@
 .app__header-img {
   flex: 1;
   height: 100%;
-  margin-top: 40px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   position: relative;
 
   img {
     width: 100%;
+    transform: scale(1.4);
+    margin-top: 90px;
     object-fit: contain;
     z-index: 1;
   }
